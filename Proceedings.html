@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>fte21/Presenterinfo</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="MyPlugins/images/temple.jpg"/>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="MyPlugins/css/bootstrap.min.css" rel="stylesheet">
+    <!-- slide slider -->
+    <link href="MyPlugins/css/slide.css" rel="stylesheet">
+    <!-- Theme color -->
+    <link id="switcher" href="MyPlugins/css/visualeffects.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+	<!-- Montserrat for title -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ 
+ 
+	
+   
+  </head>
+  <body>
+  	
+  	<!-- Start Header -->
+	<header id="mu-hero" class="" role="banner">
+		<!-- Start menu  -->
+		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
+		  	<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+
+			      <!-- Logo -->
+			      <a class="navbar-brand" href="index.html">FT21</a>
+
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      	<ul class="nav navbar-nav mu-menu navbar-right">
+			      		<li><a href="index.html">Home</a></li>
+				        <li><a href="index.html">About</a></li>
+						<li><a href="index.html">Important Dates</a></li>
+						
+
+						<li><a href="index.html">Committees</a></li>
+						 <li><a href="index.html">Speakers</a></li>
+						<li><a href="index.html">Registration Fees</a></li>
+            <li><a href="form.html">Paper Submit</a></li>
+						<li><a href="index.html">Sponsors</a></li>
+						<li><a href="form2.html">Register</a></li>
+						<li><a href="#mu-contact">Contact</a></li>
+						
+						
+			      	</ul>
+			    </div><!-- /.navbar-collapse -->
+		  	</div><!-- /.container-fluid -->
+		</nav>
+		<!-- End menu -->
+<style>
+#mu-contact {
+	background-color: #c9c4c4;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-contact-area {
+	display: inline;
+	float: left;
+	padding: 100px 0 50px;
+	width: 100%;
+}
+
+.mu-contact-header {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 0 120px;
+}
+
+.mu-contact-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	padding: 0 20%;
+	width: 100%;
+}
+
+
+.mu-contact-form-area {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-contact-form {
+	text-align: center;
+}
+
+.mu-contact-form .form-group input {
+	background: transparent;
+	border-radius: 5px;
+	color: #333;
+	font-size: 15px;
+	border: 1px solid #888;
+	height: 45px;
+	margin-bottom: 24px;
+}
+
+.mu-contact-form .form-group textarea {
+	background: transparent;
+	border: 1px solid #888;
+	border-radius: 5px;
+	color: #333;
+	font-size: 18px;
+	padding: 10px;
+	height: 190px;
+}
+
+.mu-contact-form .form-control:focus {
+	background-color: rgb(204, 198, 198);
+    outline: 0;
+    box-shadow: none;    
+} 
+
+.mu-contact-form .form-control::-webkit-input-placeholder {
+	color: #888;
+	font-size: 15px;
+}
+
+.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #888;
+	font-size: 15px; 
+}
+
+.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #888;
+	font-size: 15px;
+}
+
+.mu-contact-form .form-control:-ms-input-placeholder {  
+	color: #888;
+	font-size: 15px;
+}
+
+.mu-contact-form .button-default::after,
+.mu-contact-form .button-default > span {
+	padding: 12px 40px;  
+}
+
+#form-messages {
+	margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.success {
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #468847;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	-webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+	      border-radius: 4px;
+}
+
+.error {
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #b94a48;
+	background-color: #f2dede;
+	border: 1px solid rgba(185, 74, 72, 0.3);
+	-webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+	      border-radius: 4px;
+}
+</style>
+
+  <!-- Start Contact -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title-area">
+              <h2 class="mu-heading-title">Proceedings of the Conference</h2>
+              <p></p>
+            </div>
+
+            <!-- Start Contact Content -->
+            <div class="mu-contact-content">
+              <div class="row">
+
+              <div class="col-md-12">
+                <div class="mu-contact-form-area">
+                  <div id="form-messages"></div>
+                  <form method="post" autocomplete="off" name="google-sheet">
+                    <div class="form-group">
+                     
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- End Contact Content -->
+          
+
+                <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="MyPlugins/js/bootstrap.min.js"></script>
+	<!-- slide slider -->
+    <script type="text/javascript" src="MyPlugins/js/slide.min.js"></script>
+    <!-- Event Counter -->
+    <script type="text/javascript" src="MyPlugins/js/jquery.countdown.min.js"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="MyPlugins/js/app.js"></script>
+  
+       
+	
+    <!-- Custom js -->
+  <script type="text/javascript" src="MyPlugins/js/custom.js"></script>
+  <th width="464" height="82" scope="row"><div align="left">
+    <p><span class="style39"><a href="Proceeding/TOC.pdf" target="_blank"><span class="style35"><span class="style42"><strong> Cover Page and table of content can be accessed <u>Here</u></strong></span></span></a></span><span class="style43"><a href="Proceeding/TOC.pdf" target="_blank"></a></span></p>                             
+    </div></th>
+  </tr><br>
+  <p>The link for the keynote & general papers can be accessed through paper ID's </p>
+  <br>
+  <h3 class="mu-price-title">KEYNOTE PAPERS:</h3>
+	<ul>
+		<head>
+			<style>
+			table, th, td {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			}
+			th, td {
+			  padding: 5px;
+			  text-align: left;    
+			}
+			</style>
+			</head>
+			<body>
+			
+			<h2></h2>
+			<p><strong></strong></p>
+			
+      <table style="width:100%">
+        <tr>
+					<th><a href="Proceeding/FT21KN001.pdf">#FT21KN001</a></th>
+                    <td>Soh Chee-Kiong (Diamond Keynote)</td>
+                    <td>FOUR DECADES OF RESEARCH JOURNEY (presentation) </td>
+                  </tr>
+                  <tr>
+                    <th><a href="Proceeding/FTKN21012.pdf">#FT21KN012</a></th>
+                              <td>Roger West (Gold Keynote)</td>
+                              <td>ENGINEERED BAMBOO: A FUTURISTIC STRUCTURAL MATERIAL</td>
+				
+                  <tr>
+					<th><a href="Proceeding/FTKN21002.pdf">#FTKN21002</a></th>
+                    <td>Santosh Kapuria</td>
+                    <td>FUTURISTIC STRUCTURAL HEALTH MONITORING</td>
+                  </tr>
+                 
+                  
+                  <tr>
+					<th><a href="Proceeding/FTKN21005.pdf">#FT21KN005</a></th>
+                    <td>Sandipon Adhikari</td>
+                    <td>DYNAMIC CHARACTERISTICS OF 2D LATTICE
+                        METAMATERIALS</td>
+                  </tr>
+                 
+                  
+                  <tr>
+					<th><a href="Proceeding/FTKN21008.pdf">#FT21KN008</a></th>
+                    <td>Chanakya Arya</td>
+                    <td>SASS: AN AID TO IMPLEMENTING FUTURISTIC
+                        TECHNOLOGIES</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FTKN21010.pdf">#FT21KN010</a></th>
+                    <td>Yee Yan Lim</td>
+                    <td>ADVANCES IN HUMAN MOTION BASED
+                      PIEZOELECTRIC ENERGY HARVESTING</td>
+                  </tr>
+                  <th><a href="Proceeding/FTKN21009.pdf">#FTKN21009</a></th>
+                    <td>Samit Ray Chaudhuri</td>
+                    <td>MULTI-SENSOR DATA FUSION BY LEAST SQUARES
+                        ESTIMATION FOR STRUCTURAL HEALTH
+                        MONITORING</td>
+                  </tr>
+                 
+                  <tr>
+					<th><a href="Proceeding/FTKN21011.pdf">#FT21KN011</a></th>
+                    <td>Shashank Srivastava</td>
+                    <td>BIOMEDICAL HEALTH MONITORING USING SENSOR
+                        ACTUATOR SYSTEM OF SMART MATERIALS</td>
+                  </tr>
+                  <tr>
+                    <th><a href="Proceeding/FTKN21003.pdf">#FT21KN003</a></th>
+                              <td>Xia Yong</td>
+                              <td>FIELD MONITORING OF A SUPER TALL STRUCTURE</td>
+                            </tr>
+                            <tr>
+                              <th><a href="Proceeding/FTKN21007.pdf">#FT21KN007</a></th>
+                                        <td>Zengfeng Zhao</td>
+                                        <td>PERFORMANCE OF CONCRETE BLOCK MADE WITH
+                                            RECYCLED CONCRETE AGGREGATES: FROM
+                                            LABORATORY TO INDUSTRIAL SCALE</td>
+                                      </tr>
+                                      <tr>
+                                        <th><a href="Proceeding/FTKN21004.pdf">#FT21KN004</a></th>
+                                                  <td>Pilate Moyo</td>
+                                                  <td>ADVANCES IN STRUCTURAL HEALTH MONITORING
+                                                    OF CONCRETE ARCH DAMS</td>
+                                                </tr>
+                                                <tr>
+                                                  <th><a href="Proceeding/FTKN21006.pdf">#FT21KN006</a></th>
+                                                            <td>Fernando Martirena</td>
+                                                            <td>THE CONCRETE OF THE FUTURE: CHALLENGES AND OPPORTUNITIES</td>
+                                                          </tr>
+          
+                  </tr></table><BR><BR>
+  
+  
+	<h3 class="mu-price-title">GENERAL PAPERS:</h3>
+	<ul>
+		<head>
+			<style>
+			table, th, td {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			}
+			th, td {
+			  padding: 5px;
+			  text-align: left;    
+			}
+			</style>
+			</head>
+			<body>
+            </table>
+            <br>
+            <P><strong>Theme: FUTURISTIC STRUCTURAL HEALTH MONITORING</strong></P>
+            <table style="width:100%">
+                    <tr>
+                      <th><a href="Proceeding/FT21019.pdf">#FT21019</a></th>
+                      <td>Dattar Singh Aulakh, Suresh Bhalla</td>
+                      <td>PIEZO-SENSOR BASED STRAIN MODAL TESTING FOR
+                          SHM</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21020.pdf">#FT21020</a></th>
+                      <td>Praveen Kumar Yadav, Kranti Jain</td>
+                      <td>IOT SENSORS: A KEY ELEMENT TO CHANGE THE FUTURE
+                          OF STRUCTURAL HEALTH MONITORING</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21021.pdf">#FT21021</a></th>
+                      <td>Savitha Sagari Srinivasan, Sripriya Rengaraju, L. R. Manjunatha</td>
+                      <td>REVIEW OF STRUCTURAL HEALTH MONITORING
+                          ON METRO RAIL NETWORKS</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21022.pdf">#FT21022</a></th>
+                      <td>Savitha Sagari Srinivasan, Sharvil Alex Faroz</td>
+                      <td>REVIEW OF STRUCTURAL HEALTH MONITORING OF
+                          COLOSSAL STATUES</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21031.pdf">#FT21031</a></th>
+                      <td>Anant Saurabh Bahl, Suresh Bhalla</td>
+                      <td>PARAMETRIC STUDY OF AN EULER BEAM-PIEZOBOND
+                          SYSTEM FOR SHM USING REFINED SHEAR
+                          LAG MODEL</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21032.pdf">#FT21032</a></th>
+                      <td>Krishna Kumar Maurya, Anupam Rawat, Rama Shanker</td>
+                      <td>NUMERICAL APPROACH FOR HEALTH MONITORING OF
+                          BACTERIAL CONCRETE STRUCTURE USING EMI
+                          TECHNIQUE</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21033.pdf">#FT21033</a></th>
+                      <td>Siddharth Singh Tanwar, Suresh Bhalla</td>
+                      <td>ELECTRO-MECHANICAL IMPEDANCE
+                          INVESTIGATIONS ON PIEZO-BOND-STRUCTURE
+                          SYSTEM THROUGH ANALYTICAL CUM NUMERICAL
+                          MODELLING</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21040.pdf">#FT21040</a></th>
+                      <td>Aayush Joshi, Kranti Jain</td>
+                      <td>REVIEW OF RESIDUAL STRESS ESTIMATION IN A
+                          UNIAXIALLY LOADED CONCRETE MEMBER USING
+                          ULTRASONIC
+                          PULSE VELOCITY</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21041.pdf">#FT21041</a></th>
+                      <td>Achint Ranjan, Rama Shanker, Sachin Kumar Singh</td>
+                      <td>PREDICTION OF CARBONATION SEVERITY IN CONCRETE
+                          STRUCTURE USING NUMERICAL APPROACH OF EMI
+                          TECHNIQUE</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21042.pdf">#FT21042</a></th>
+                      <td>Brajesh Rajpoot, Rama Shanker Varun Singh</td>
+                      <td>HEALTH MONITORING OF STRUCTURES USING
+                          NUMERICAL APPROACH OF EMI TECHNIQUE</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21043.pdf">#FT21043</a></th>
+                      <td>Varun Singh, Rama Shanker, Asit Kumar, Vivekanand, Ayush Kumar,
+                          Abhishek Kumar</td>
+                      <td>ASSESSMENT OF PAVEMENT CONDITION USING
+                          SENSOR BASED APPROACH</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21044.pdf">#FT21044</a></th>
+                      <td>Tejveer Singh Pundhir, Rama Shanker, Varun Singh</td>
+                      <td>INVESTIGATION OF SHEAR LAG EFFECT FOR EMI
+                          TECHNIQUE USING NUMERICAL APPROACH</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21045.pdf">#FT21045</a></th>
+                      <td>Sachin Kumar Singh, Rama Shanker, Achint Ranjan</td>
+                      <td>EFFECTS OF DIMENSION AND MATERIAL ON THE
+                          SIGNATURE OF A COUPLED SYSTEM IN EMI TECHNIQUE</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21048.pdf">#FT21048</a></th>
+                      <td>M V Chilukuri, Prerna Sarkar</td>
+                      <td>FUTURISTIC APPLICATIONS OF ROBUST TRACKING
+                          PI BASED CONTROLLER OBSERVER SYSTEM TO
+                          TIME-VARYING REFERENCE INPUTS</td>
+                    </tr>
+                    <tr>
+                      <th><a href="Proceeding/FT21069.pdf">#FT21069</a></th>
+                      <td>J. Panda, S. Chakraborty, S. Ray-Chaudhuri</td>
+                      <td>FUTURISTIC APPLICATIONS OF ROBUST TRACKING
+                        PI BASED CONTROLLER OBSERVER SYSTEM TO
+                        TIME-VARYING REFERENCE INPUTS</td>
+                    </tr>
+                    <var></var>
+                  </var>
+              
+              
+            </table>
+			
+			<h2></h2>
+			<p><strong>Theme:FUTURISTIC DYNAMICS</strong></p>
+			
+			<table style="width:100%">
+				<tr>
+					<th><a href="Proceeding/FT21012.pdf">#FT21012</a></th>
+                    <td>Anjaly J Pillai, Sudip talukdar</td>
+                    <td>FATIGUE DAMAGE ASSESSMENT OF AXIALLY VIBRATED
+                        STEEL BAR CONSIDERING OPENING STRESS IN CRACK
+                        PROPAGATION STAGE</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21013.pdf">#FT21013</a></th>
+                    <td>Ramya Niranjan, Srinivasa B. Ramisetti</td>
+                    <td>DYNAMIC ANALYSIS OF A 15 MW FLOATING OFFSHORE
+                        WIND TURBINE</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21023.pdf">#FT21023</a></th>
+                    <td>Souraj Kumar Gupta, Kranti Jain</td>
+                    <td>POTENTIAL OF PROGRESSIVE COLLAPSE FOR REGULAR
+                        AND IRREGULAR RC FRAMED STRUCTURE</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21035.pdf">#FT21035</a></th>
+                    <td>Divyansh Tiwari, K Senthil</td>
+                    <td>STABILITY OF ELEVATED RETAINING STRUCTURES
+                        UNDER SEISMIC LOADING</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21056.pdf">#FT21056</a></th>
+                    <td>Abhigna Bhatt, Rajan Prasad, Arnab Banerjee</td>
+                    <td>FLEXURAL WAVE DISPERSION RELATIONSHIP
+                        OFINFINETLY LONG ELAS RIGID COMBINED BEAM</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21057.pdf">#FT21057</a></th>
+                    <td>Susmita Panda, Arnab Banerjee, Bappaditya Manna</td>
+                    <td>VIBRATION CONTROL OF BRIDGES USING DIFFERENT
+                        CONFIGURATION OF TUNED MASS DAMPER</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21065.pdf">#FT21065</a></th>
+                    <td>Bharath Obalareddy, Aneesh Batchu, Prabhakar Sathujoda</td>
+                    <td>MODELLING OF FUTURISTIC EXPONENTIALLY
+                        GRADEDROTOR BEARING SYSTEMFOR DYNAMIC
+                        ANALYSIS</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21067.pdf">#FT21067</a></th>
+                    <td>Mahesh Babu Addala, Suresh Bhalla, Alok Madan</td>
+                    <td>SEISMIC PERFORMANCE OF HYBRID PASSIVE DEVICE
+                        AND
+                        CHARACTERIZATION OF ITS MULTI PHASE BEHAIOUR</td>
+                  </tr>
+                  <var></var>
+                </var>
+            </table>
+            
+         
+          <br>
+          <P><strong>Theme: METAMATERIALS</strong></P>
+          <table style="width:100%">
+                  <tr>
+					<th><a href="Proceeding/FT21051.pdf">#FT21051</a></th>
+                    <td>Sudip Chowdhury, Arnab Banerjee</td>
+                    <td>TOWARDS THE DEVELOPMENT OF IMPACTING
+                        METAMATERIAL</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21053.pdf">#FT21053</a></th>
+                    <td>Prakhar Sinha, Tanmoy Mukhopadhyay</td>
+                    <td>SENSITIVITY ANALYSIS OF THE ELASTIC MODULI OF
+                        HONEYCOMB LATTICE METAMATERIALS</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21055.pdf">#FT21055</a></th>
+                    <td>Jyotiranjan Moharana, Rajan Prasad, Arnab Banerjee</td>
+                    <td>APPLICATON OF PERIODIC SOLID STATE THEORY
+                        IN DYNAMIC ANALYSIS OF HIGH RISE COUPLED
+                        SHEAR WALL STRUCTURES</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21058.pdf">#FT21058</a></th>
+                    <td>M. Somasri, Narendra Kumar B</td>
+                    <td>STUDY ON GRAPHENE OXIDE AS ADVANCED NANOMATERIAL
+                        TO IMPROVE THE PERFORMANCE
+                        CHARACTERSTICS OF HIGH STRENGTH SELFCOMPACTING
+                        CONCRETE</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21059.pdf">#FT21059</a></th>
+                    <td>Vinod Kumar G, Narendra Kumar</td>
+                    <td>IMPACT OF ADVANCED ENGINEERED MATERIALS IN
+                        CEMENT COMPOSITES FOR URBAN RESILIENT
+                        INFRASTRUCTURE DEVELOPMENT</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21062.pdf">#FT21062</a></th>
+                    <td>Abhijit Sarkar, Rajan Prasad</td>
+                    <td>PERIODIC STRUCTURES AND TIME-VARYING
+                        DYNAMICAL SYSTEMS: A ROLE REVERSAL OF SPACE
+                        AND TIME</td>
+                  </tr>
+                  <var></var>
+                </var>
+            
+            
+          </table>
+          <br>
+          <P><strong>Theme: Futuristic Construction Materials</strong></P>
+          <table style="width:100%">
+                  <tr>
+					<th><a href="Proceeding/FT21002.pdf">#FT21002</a></th>
+                    <td>Dr. Sushil Kumar Dhawan</td>
+                    <td>SUSTAINABILITY IN CONSTRUCTION SECTOR</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21008.pdf">#FT21008</a></th>
+                    <td>Md Mozaffar Masud, A. K. L. Srivastava</td>
+                    <td>COMPARATIVE STUDY OF STRENGTHENING OF
+                        CIRCULAR CONCRETE COLUMN USING SOFT FRP</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21030.pdf">#FT21030</a></th>
+                    <td>Amitabh Narain, Divya Pandya, Atharva Rahane, Soroush
+                        Sepahyar, Vibhu Vivek</td>
+                    <td>NHANCED NUCLEATION FLOW-BOILING
+                        TECHNOLOGY FOR
+                        ELECTRONIC COOLING AND RESULTING ENERGY
+                        EFFICIENCY FOR DATACENTERS</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21052.pdf">#FT21052</a></th>
+                    <td>R.V. Ranganath, L. R. Manjunath, Nishanth B H, Vidyadhara V</td>
+                    <td>PROPERTIES OF GEOPOLYMER COMPOSITES USING
+                        ACTIVATED POND ASH</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21064.pdf">#FT21064</a></th>
+                    <td>Kunal Kakria, Shanmuga Priya T</td>
+                    <td>STRENGTH AND MICROSTRUCTURAL PROPERTIES OF
+                        CONCRETE WITH MICRONIZED BIOMASS SILICA AND
+                        WASTE PCB POWDER</td>
+                  </tr>
+                  <var></var>
+                </var>
+            
+            
+          </table>
+          <br>
+          <P><strong>Theme: FUTURISTIC RETROFITTING</strong></P>
+          <table style="width:100%">
+            <tr>
+					<th><a href="Proceeding/FT21010.pdf">#FT21010</a></th>
+                    <td>Arnab Kumar Sinha, Sudip Talukdar</td>
+                    <td>RETROFITTING AND STRENGTHENING TECHNIQUES
+                        APPLIED ON DAMAGED RCC PRISM USING GEOPOLYMER</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21025.pdf">#FT21025</a></th>
+                    <td>Narayan, Krishna Kant Pathak</td>
+                    <td>ANALYSIS OF STRUCTURAL ENGINEERING PROBLEMS
+                        BASED ON FUTURISTIC CONNECTION DEFINITIONS</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21026.pdf">#FT21026</a></th>
+                    <td>Tejas S. Shelgaonkar, Suraj Khante</td>
+                    <td>EMI BASED HEALTH MONITORING – APPLICATION TO
+                        RETROFITTED BEAM-COLUMN JOINT</td>
+                  </tr>
+                  <var></var>
+                </var>
+            
+            
+          </table>
+          <br>
+          <P><strong>Theme: FUTURISTIC ENERGY SOLUTIONS</strong></P>
+          <table style="width:100%">
+                  <tr>
+					<th><a href="Proceeding/FT21011.pdf">#FT21011</a></th>
+                    <td>Nitin Kumar, Om Prakash</td>
+                    <td>METHODOLOGY FOR POWER GENERATION BY
+                        UTILIZATION OF HIGH-RISE BUILDING</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21016.pdf">#FT21016</a></th>
+                    <td>Abhishek Singh Yadav, Laltu Chandra, Jahar Sarkar</td>
+                    <td>DEVELOPMENT OF A COMPREHENSIVE, 1D STEADY
+                        STATE HEAT
+                        TRANSFER MODEL FOR THE RECEIVER IN PTC</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21036.pdf">#FT21036</a></th>
+                    <td>Reshma Talari, Vasagiri Siri Chandana Pratyush Behera, Bharadwaja</td>
+                    <td>IDENTIFICATION OF GROUNWATER RECHARGE
+                        POTENTIAL ZONES USING GEOSPATIAL TECHNIQUES</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21054.pdf">#FT21054</a></th>
+                    <td>Dinesh Kumar Sharma, Dilip Sharma, Ahmed Hamza H Ali</td>
+                    <td>A MINI REVIEW ON THE EFFECT OF CLEANING
+                        STRATEGIES ON PRODUCTIVITY OF VARIOUS SOLAR
+                        THERMAL COLLECTORS</td>
+                  </tr>
+                  <var></var>
+                </var>
+            
+            
+          </table>
+          <br>
+          <P><strong>Theme: FUTURISTIC BIO-MEDICAL AND OTHER APPLICATIONS</strong></P>
+          <table style="width:100%">
+                  <tr>
+					<th><a href="Proceeding/FT21001.pdf">#FT21001</a></th>
+                    <td>Naga Praveen Babu Mannam, P. Rajalakshmi</td>
+                    <td>THRUST PERFORMANCE OF INSECT INSPIRED
+                        PROPULSION FOR BIOINSPIRED MAVs</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21005.pdf">#FT21005</a></th>
+                    <td>Rajkumar Tammisetti, Talari Reshma, Savitha Chirasmayee</td>
+                    <td>SURFACE RUNOFF ESTIMATION FOR AN AGRICULTURAL
+                        WATERSHED USING NRCS METHOD AND GEOSPATIAL
+                        TECHNIQUES</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21024.pdf">#FT21024</a></th>
+                    <td>Ajaya Kumar Das</td>
+                    <td>PLANTAR PRESSURE MEASUREMENT USING PIEZOSENSORS
+                        SYSTEM</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21029.pdf">#FT21029</a></th>
+                    <td>Savitha Chirasmayee, T Reshma, Rajkumar Tammisetti</td>
+                    <td>ANALYSIS AND MONITORING THE HEALTH OF THE
+                        AGRICULTURE WATERSHED USING GEOSPATIAL
+                        TECHNOLOGIES</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21038.pdf">#FT21038</a></th>
+                    <td>Varatharajan Prasannavenkadesan, Ponnusamy Pandithevan</td>
+                    <td>AN EXPERIMENTAL INVESTIGATION ON BOVINE
+                        CORTICAL BONE USING COWPER-SYMONDS MODEL</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21047.pdf">#FT21047</a></th>
+                    <td>Shubham Pandey, Anupam Rawat, A. K. Sachan, Saurabh Singh</td>
+                    <td>STUDY OF RIGID PAVEMENT FOR VARAYING
+                        CONDITIONS USING KENPAVE</td>
+                  </tr>
+                  <var></var>
+                </var>
+            
+            
+          </table>
+          <br>
+          <P><strong>Theme: ARTIFICIAL INTELLIGENCE</strong></P>
+          <table style="width:100%">
+                  <tr>
+                  <tr>
+					<th><a href="Proceeding/FT21017.pdf">#FT21017</a></th>
+                    <td>Santoki Kashyap Vithalbhai, Sachin Singh Gautam</td>
+                    <td>A MACHINE LEARNING APPROACH TO FRETTING
+                        FATIGUE PROBLEM</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21028.pdf">#FT21028</a></th>
+                    <td>Suhaib Ul Reyaz, Surendra Beniwal</td>
+                    <td>MACHINE LEARNING BASED ULTRASONIC IMAGE
+                        SEGMENTATION FOR DAMAGE EVALUATION IN
+                        CONCRETE</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21034.pdf">#FT21034</a></th>
+                    <td>Raushan Kumar Ravi, Suresh Bhalla, A K Jain, Shashank
+                      Srivastava</td>
+                    <td>ARTIFICIAL INTELLIGENCE ENABLED STRUCTURAL SYSTEM IDENTIFICATION</td>
+                  </tr>   <var></var>
+                </var>
+            
+            
+          </table>
+          <br>
+          <P><strong>Theme: FUTURISTIC STRUCTURAL MATERIALS</strong></P>
+          <table style="width:100%">
+                  <tr>
+					<th><a href="Proceeding/FT21066.pdf">#FT21066</a></th>
+                    <td>Vasudha Rani Bhagat, Suresh Bhalla, Diwakar Bhagat,
+                        Sudhakar Deo Bhagat</td>
+                    <td>FABRICATION AND TESTING OF ENGINEERED BAMBOO
+                        BEAMS IN FLEXURE</td>
+                  </tr>
+                  <tr>
+					<th><a href="Proceeding/FT21068.pdf">#FT21068</a></th>
+                    <td>Vaishali Bansal, Diwakar Bhagat, Suresh Bhalla</td>
+                    <td>COMPUTATIONAL ANALYSIS OF 2X2 MATRIX FIBER
+                        REINFORCED BAMBOO COMPOSITE (FRBC) BEAMS</td>
+                  </tr>
+                 
+                  <var></var>
+                  </var>
+			  
+			  
+			</table>
+
+					</ul>
+				</div>
+				
+			</div>
+  </body>
+</html>
+
+
+
+
+
+
+
