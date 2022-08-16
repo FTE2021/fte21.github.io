@@ -7,7 +7,7 @@
   $message = htmlspecialchars($_POST['message']);
   if(!empty($email) && !empty($message)){
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-      $receiver = "faraz.sameer295@gmail.com"; //enter that email address where you want to receive all messages
+      $receiver = "hasansameer295@gmail.com"; //enter that email address where you want to receive all messages
       $subject = "From: $sameer <$vlabs>";
       $body = "Name: $name\nEmail: $email\nPhone: $phone\nWebsite: $website\n\nMessage:\n$message\n\nRegards,\n$name";
       $sender = "From: $email
